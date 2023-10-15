@@ -7,6 +7,15 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 This is my fisrt post.
 
+### Create a new folder
+
+```bash
+$ mkdir blog-source
+$ cd blog-source
+$ hexo init  # 初始化仓库
+$ tree -L 1  # 查看结构(brew install tree)
+```
+
 
 ### Create a new post
 
@@ -39,3 +48,34 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+## Details
+
+### Mathematical formula
+
+
+use following code
+
+```bash
+{% mathjax %} 
+{V = \left\lbrace v_{0}, v_{1}, …, v_{n} \right\rbrace} 
+{% endmathjax %}
+```
+Math formulas can be displayed correctly, as follows:
+
+{% mathjax %} 
+{V = \left\lbrace v_{0}, v_{1}, …, v_{n} \right\rbrace} 
+{% endmathjax %}
+
+
+
+
+### Code 
+
+```python
+import numpy as np
+
+a = np.arange(1, 1, 10)
+```
+
+
