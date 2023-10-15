@@ -28,6 +28,17 @@
 				<% } %>
 			<%}%>
 		</nav>
+
+        <!--开始添加文章数统计 -->
+<nav>
+	<ul style="font-size:13px; font-style:normal; font-weight:100">
+	  <font color="CadetBlue  ">总文章数：<%=site.posts.length%>
+	  </font>
+	</ul>
+  </nav>
+  <br/>
+  <!--结束添加文章数统计 -->
+
 		<nav class="header-nav">
 			<div class="social">
 				<% for (var i in theme.subNav){ %>
