@@ -10,7 +10,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 
-This is my fisrt post.
+This is my fisrt page.
 
 ### Create a new folder
 
@@ -54,6 +54,28 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
+
+### Run quickly
+
+```bash
+$ vi run.sh
+```
+
+with the following:
+
+```
+hexo clean 
+hexo g
+hexo s
+```
+
+
+start your local view with the code as follows:
+```bash
+sh run.sh
+```
+
+
 ## Details
 
 ### Mathematical formula
@@ -66,12 +88,12 @@ use following code
 {V = \left\lbrace v_{0}, v_{1}, …, v_{n} \right\rbrace} 
 {% endmathjax %}
 ```
+
 Math formulas can be displayed correctly, as follows:
 
 {% mathjax %} 
 {V = \left\lbrace v_{0}, v_{1}, …, v_{n} \right\rbrace} 
 {% endmathjax %}
-
 
 
 

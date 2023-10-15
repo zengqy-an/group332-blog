@@ -241,13 +241,13 @@ live2d:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  # header: '#D3D1DC'
-  header: '#4d4d4d'
+  header: '#D3D1DC'
+  # header: '#4d4d4d'
   gif:
     # 是否启用左侧边栏动态图效果
-    enable: false
+    enable: true
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
-    # path: /img/biubiubiu.gif
+    path: /img/biubiubiu.gif
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -259,8 +259,8 @@ slider:
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
-#smart_menu:
-#  friends: false
+smart_menu:
+ friends: false
 smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
