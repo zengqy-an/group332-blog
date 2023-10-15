@@ -3,7 +3,6 @@ menu:
   主页: /
   项目: /
   归档: /archives
-  标签: /categories
 
 # subNav-子导航
 subNav:
@@ -155,17 +154,6 @@ clickLove:
   # (关闭请设置为false)
   enable: true
 
-# GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
-github:
-  # (关闭请设置为false)
-  enable: false
-  url: https://github.com/JoeyBling/hexo-theme-yilia-plus
-
-# 页脚 Litten(此配置项已弃用)
-# 帮助我们让更多人可以更方便使用Hexo，请尽量不要修改此主题配置
-# pageFooter:
-  # litten: GitHub:<a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">hexo-theme-yilia-plus</a>
-
 # 开启百度站长平台自动推送(https://ziyuan.baidu.com/linksubmit/index)
 baidu_push: false
 
@@ -273,11 +261,11 @@ friends:
     img: https://avatars.githubusercontent.com/in/15368?s=64&v=4
     description: 关注我吧
   SciHub:
-    url: https://gitee.com/zhousiwei
+    url: https://sci-hub.st/
     img: https://sci-hub.st/pictures/ravenround_hs.gif
     description: 站在巨人的肩膀上
   Marxists:
-    url: https://www.jianshu.com/u/02cbf31a043a
+    url: https://www.marxists.org/chinese/index.html
     img: https://www.marxists.org/chinese/images/1-marx.jpg
     description: 马克思主义是一种理论，也是一项事业
 

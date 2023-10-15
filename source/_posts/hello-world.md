@@ -99,10 +99,23 @@ Math formulas can be displayed correctly, as follows:
 
 ### Code 
 
+python code test
+
 ```python
 import numpy as np
 
 a = np.arange(1, 1, 10)
 ```
+
+
+java code test
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
 
 
