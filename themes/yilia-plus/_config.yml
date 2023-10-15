@@ -259,8 +259,8 @@ slider:
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
-smart_menu:
- friends: false
+# smart_menu:
+#  friends: false
 smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
