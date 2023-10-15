@@ -8,6 +8,16 @@ $ cd source/_posts
 $ vi demo.md
 ```
 
+## import local images
+
+upload your images into `images`, then use the image in your post with as follows:
+
+```bash
+![](/images/demo.png)
+```
+
+online image just using image link.
+
 ## commit yourself
 
 ```bash
