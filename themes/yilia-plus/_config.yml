@@ -7,10 +7,10 @@ menu:
 
 # subNav-子导航
 subNav:
-  - github: "#"
-  - github: "#" # (支持设置多个)
-  - gitee: "#" # 码云
-  - jianshu: "#" #简书
+  #- github: "#"
+  #- github: "#" # (支持设置多个)
+  #- gitee: "#" # 码云
+  #- jianshu: "#" #简书
   # - cnblog: "#"
   # - blog: "#"
   # - csdn: "#"
