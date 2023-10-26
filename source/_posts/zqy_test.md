@@ -1,6 +1,6 @@
 ---
 title: zqy test
-tags: hello world
+tags: hello world hjk
 categories: test
 toc: true
 ---
